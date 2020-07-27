@@ -11,7 +11,6 @@ function Login() {
 
     const handleChange = (e) => {
         const {id , value} = e.target   
-        console.log(e.target)
         setLogin(prevState => ({
             ...prevState,
             [id] : value
